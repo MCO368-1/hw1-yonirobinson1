@@ -23,7 +23,7 @@ namespace Travis1CSharp.Test
         [Test]
         public void TestMethod3()
         {
-            Assert.IsTrue(!Travis1CSharp.Program.True());
+            Assert.IsTrue(Travis1CSharp.Program.True());
         }
     }
 }
